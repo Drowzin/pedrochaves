@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(144, 142, 228);
+    margin: 2%;
+    border: rgb(85, 40, 190) solid 10px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: blue;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h1{
+    text-align: center;
+    color: rgb(38, 1, 172);
+}
+h6{
+    text-align: center;
+    color: rgba(93, 48, 255, 0.750);
+}
+h3{
+    text-align: center;
+    color: rgb(38, 1, 172);
+}
