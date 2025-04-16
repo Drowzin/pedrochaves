@@ -1,0 +1,277 @@
+
+h1,p {
+    text-align: center;
+}
+
+.paragrafo {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+  
+/*body de cada pagina*/
+.index-bg {
+    margin: 0;
+    color: #f2f2f2;
+    text-align: center;
+    background-color: #11192b;
+}
+
+.index-bg h1{
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.index-bg p{
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+}
+  
+.formulario-bg {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f2f2f2;
+    background-color: #151f36;
+}
+
+.formulario-bg h1{
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.formulario-bg p{
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+}
+
+.imagens-bg {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    color: #f2f2f2;
+    text-align: center;
+    background-color: #0d1424;
+}
+
+.imagens-bg h1{
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.imagens-bg p{
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+}
+
+.tabelas-bg {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    color: #f2f2f2;
+    text-align: center;
+    background-color: #121929;
+}
+
+.tabelas-bg h1{
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tabelas-bg h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #ffc642;
+}
+
+.tabelas-bg p{
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+}
+.tabelas-bg table td{
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+}
+
+.midias-bg {
+    margin: 0;
+    color: #f2f2f2;
+    text-align: center;
+    background-color: #0e1629;
+}
+
+.midias-bg h1{
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.midias-bg h3{
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.midias-bg p{
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+}
+  
+/*menu-nav*/
+nav {
+    background-color: #2849a5;
+    padding: 10px 0;
+    text-align: center;
+}
+  
+.menu li {
+    display: inline;
+    margin: 0 15px;
+}
+  
+.menu a {
+    color: #ffae00;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Unbounded', sans-serif;
+}
+  
+.menu a:hover {
+    color: #ffffff;
+}
+  
+/*footer*/
+.footer {
+    background-color: #1c1c1c;
+    color: #f2f2f2;
+    padding: 30px 20px;
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+}
+  
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+  
+.footer-coluna {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+}
+  
+.footer-coluna h3 {
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #c89b3c;
+    margin-bottom: 10px;
+}
+  
+.footer-coluna ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.footer-coluna ul li {
+    margin-bottom: 6px;
+}
+  
+.footer-coluna ul li a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+  
+.footer-coluna ul li a:hover {
+    color: #c89b3c;
+}
+  
+.footer-icons {
+    text-align: center;
+    margin-top: 30px;
+}
+  
+.footer-icons img {
+    width: 30px;
+    margin: 0 20px;
+    vertical-align: middle;
+}
+  
+.footer-icons img:hover {
+    transform: scale(1.1);
+}
+  
+.footer-info {
+    text-align: center;
+    margin-top: 15px;
+    color: #aaaaaa;
+}
+
+.footer-info p{
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-size: small;
+    font-weight: 500;
+    font-style: normal;
+    color: #c89b3c;
+}
+
+/*formulario*/
+form {
+    width: 60%;
+    margin: auto;
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+fieldset {
+    border: 1px solid #c89b3c;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+legend {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    color: #c89b3c;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 15px;
+    border: none;
+    background-color: #c89b3c;
+    color: #0a0a0a;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #a67c1a;
+}
